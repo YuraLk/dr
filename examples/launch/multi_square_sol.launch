@@ -1,0 +1,8 @@
+<launch>
+	<group>
+		<node pkg="examples" type="square" name="square1" output="screen" ns="/drone1">
+			<param name="namespace" value="/drone1"/>
+			<param name="use_sim_time"  value="true" />
+		</node>
+	</group>
+</launch>
